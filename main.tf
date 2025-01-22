@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "jashin-20250123-palo"
+  bucket = "jashin-20250123-palo-2"
   acl    = "private"
 }
